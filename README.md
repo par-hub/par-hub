@@ -19,17 +19,26 @@ I build practical software and machine-learning projects, with interests in **na
 
 ---
 
-## 🚀 Selected Projects
+## 🌱 Featured Project
+
+### 🌾 [NabhKrishi — AI-Powered Smart Farming](https://github.com/NabhKrishi/NabhKrishi_frontend)
+
+**My main project**, developed in the NabhKrishi organization: an AI-powered agricultural decision-support platform designed to help farmers make informed decisions.
+
+The platform brings together computer vision for crop-disease detection, reinforcement-learning-based decision support, a retrieval-augmented agricultural chatbot, multilingual guidance, and digital farm mapping.
+
+**Technologies and areas:** Flutter · Swin Transformer · PPO reinforcement learning · RAG · ChromaDB · BGE embeddings · NVIDIA Nemotron · FastAPI
+
+[**Explore the NabhKrishi repository →**](https://github.com/NabhKrishi/NabhKrishi_frontend)
+
+---
+
+## 🚀 Other Selected Projects
 
 ### 🐄 [AgroAI — Cattle Breed Detection](https://github.com/par-hub/AgroAI)
 A computer-vision project focused on cattle-breed classification, with a Flutter application in the repository.
 
 **Focus:** Image classification · Mobile app development · ML integration
-
-### 🌾 [Irrigation Backend](https://github.com/par-hub/irrigation-backend)
-Backend project related to an irrigation-advisory workflow.
-
-**Focus:** API/backend development · Agricultural technology
 
 ### 🤟 [ISL Gloss](https://github.com/par-hub/isl-gloss)
 A project repository related to Indian Sign Language gloss work.
