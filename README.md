@@ -14,7 +14,6 @@ I build practical software and machine-learning projects, with interests in **ge
 ## 🧰 Tech Stack
 
 ### 🤖 AI, Machine Learning & Computer Vision
-
 ![AI/ML](https://img.shields.io/badge/AI%20%2F%20Machine%20Learning-6C5CE7?style=for-the-badge)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0984E3?style=for-the-badge)
 ![Transformers](https://img.shields.io/badge/Transformers-00B894?style=for-the-badge)
@@ -24,24 +23,20 @@ I build practical software and machine-learning projects, with interests in **ge
 **Areas:** Classification · NLP · Swin Transformer · Model evaluation
 
 ### ✨ Generative AI, LLMs & RAG
-
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-7B61FF?style=for-the-badge)
 ![LLMs](https://img.shields.io/badge/LLMs-4B6584?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/Retrieval--Augmented%20Generation-6C5CE7?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-5B5BD6?style=for-the-badge)
-![Embeddings](https://img.shields.io/badge/Embedding%20Models-BADC58?style=for-the-badge&logoColor=black)
 
 **Tools & concepts:** NVIDIA Nemotron · BGE Embeddings · Vector retrieval · Grounded chatbot workflows
 
 ### 🎮 Reinforcement Learning
-
 ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-00A8FF?style=for-the-badge)
 ![PPO](https://img.shields.io/badge/PPO-3867D6?style=for-the-badge)
 
 **Focus:** Policy-based decision support · Context-aware recommendations
 
-### 📱 Mobile, Maps & Geospatial Integration
-
+### 📱 Flutter, Dart, Maps & Geospatial Integration
 <p align="left">
   <img src="https://skillicons.dev/icons?i=flutter,dart" alt="Flutter and Dart" />
 </p>
@@ -53,7 +48,6 @@ I build practical software and machine-learning projects, with interests in **ge
 **Focus:** GPS-based location · Farm-boundary drawing · Area calculation · Geospatial data
 
 ### 🛠️ Languages, Backend & Developer Tools
-
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,js,ts,react,nextjs,tailwind,firebase,supabase,aws,git,github" alt="Languages, frameworks, platforms, and tools" />
 </p>
@@ -62,44 +56,45 @@ I build practical software and machine-learning projects, with interests in **ge
 
 ---
 
-## 🌱 Featured Project
+## 🌟 Featured Projects
 
 ### 🌾 [NabhKrishi — AI-Powered Smart Farming](https://github.com/NabhKrishi/NabhKrishi_frontend)
+**My main project**, developed in the NabhKrishi organization: an agricultural decision-support platform combining crop-disease computer vision, PPO-based decision support, a RAG-powered agricultural chatbot, multilingual guidance, satellite/weather data, and digital farm mapping.
 
-**My main project**, developed in the NabhKrishi organization: an AI-powered agricultural decision-support platform designed to help farmers make informed decisions.
+**Technologies:** Flutter · Dart · Swin Transformer · PPO · GenAI · LLMs · RAG · ChromaDB · BGE embeddings · NVIDIA Nemotron · FastAPI · GPS/maps
 
-The platform brings together computer vision for crop-disease detection, reinforcement-learning-based decision support, a retrieval-augmented agricultural chatbot, multilingual guidance, and digital farm mapping.
+### 🤟 [ISL Gloss — Indian Sign Language Tools](https://github.com/par-hub/isl-gloss)
+A project combining a Flutter client with a Python service for English-to-Indian Sign Language gloss translation using a fine-tuned mT5 model.
 
-**Technologies and areas:** Flutter · Dart · Swin Transformer · PPO reinforcement learning · Generative AI · LLMs · RAG · ChromaDB · BGE embeddings · NVIDIA Nemotron · FastAPI · GPS · Interactive maps · GeoJSON
-
-[**Explore the NabhKrishi repository →**](https://github.com/NabhKrishi/NabhKrishi_frontend)
+**Focus:** NLP · Transformer models · ISL accessibility · Flutter · FastAPI
 
 ---
 
-## 🚀 Other Selected Projects
+## 🚀 Other Important Projects
+
+### 💬 [WhatsApp Clone](https://github.com/par-hub/whatsapp_Clone)
+A Flutter messaging-app project with Firebase integration and modules for chats, groups, status, contacts, and calling.
+
+**Technologies:** Flutter · Dart · Firebase Auth · Cloud Firestore · Firebase Storage · Riverpod · Zego call SDK
 
 ### 🐄 [AgroAI — Cattle Breed Detection](https://github.com/par-hub/AgroAI)
-A computer-vision project focused on cattle-breed classification, with a Flutter application in the repository.
+A cattle-breed identification project with a Next.js web experience and a Flutter application.
 
-**Focus:** Image classification · Mobile app development · ML integration
+**Focus:** Image-based breed detection · Breed information · Mobile/web development · Supabase integration
 
-### 🤟 [ISL Gloss](https://github.com/par-hub/isl-gloss)
-A project repository related to Indian Sign Language gloss work.
+### 📚 [Sync-ED — Collaborative Learning](https://github.com/par-hub/Sync-ED)
+A student learning platform focused on peer-to-peer resource sharing, study planning, topic-based discussions, and AI-assisted resume feedback.
 
-**Focus:** Language technology · Accessibility
+**Technologies:** Flutter · Dart · Supabase
 
-### 📱 [Flutter Away 2.0](https://github.com/par-hub/Flutter-away-2.0)
-Repository for the Flutter Away 2.0 workshop initiative.
+### 💭 [Blabber — Android Chat App](https://github.com/par-hub/Blabber)
+An Android messaging app project with sign-in/registration screens, chat layouts, and Firebase-related integrations.
 
-**Focus:** Flutter · Community learning
-
-### 💬 [Blabber](https://github.com/par-hub/Blabber)
-A software project in my development portfolio.
+**Technologies:** Android · Gradle · Firebase Authentication · Realtime Database · Firebase Storage
 
 ---
 
 ## 🌱 Currently Exploring
-
 - Generative AI, language models, and retrieval-augmented systems
 - Reinforcement learning and decision-support workflows
 - Computer vision and practical ML deployment
@@ -108,7 +103,6 @@ A software project in my development portfolio.
 ---
 
 ## 🤝 Connect
-
 - GitHub: [@par-hub](https://github.com/par-hub)
 
 ---
