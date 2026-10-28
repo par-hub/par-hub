@@ -59,11 +59,15 @@ I build practical software and machine-learning projects, with interests in **ge
 ## 🌟 Featured Projects
 
 ### 🌾 [NabhKrishi — AI-Powered Smart Farming](https://github.com/NabhKrishi/NabhKrishi_frontend)
-**My main project**, developed in the NabhKrishi organization: an agricultural decision-support platform combining crop-disease computer vision, PPO-based decision support, a RAG-powered agricultural chatbot, multilingual guidance, satellite/weather data, and digital farm mapping.
 
-**Technologies:** Flutter · Dart · Swin Transformer · PPO · GenAI · LLMs · RAG · ChromaDB · BGE embeddings · NVIDIA Nemotron · FastAPI · GPS/maps
+**Main project · Agricultural AI · Flutter**
+
+An AI-powered agricultural decision-support platform combining crop-disease computer vision, PPO-based decision support, a RAG-powered agricultural chatbot, multilingual guidance, satellite/weather data, and digital farm mapping.
+
+**Technologies:** Flutter · Dart · Swin Transformer · PPO · GenAI/LLMs · RAG · ChromaDB · BGE embeddings · NVIDIA Nemotron · FastAPI · GPS/maps · GeoJSON
 
 ### 🤟 [ISL Gloss — Indian Sign Language Tools](https://github.com/par-hub/isl-gloss)
+
 A project combining a Flutter client with a Python service for English-to-Indian Sign Language gloss translation using a fine-tuned mT5 model.
 
 **Focus:** NLP · Transformer models · ISL accessibility · Flutter · FastAPI
@@ -73,24 +77,28 @@ A project combining a Flutter client with a Python service for English-to-Indian
 ## 🚀 Other Important Projects
 
 ### 💬 [WhatsApp Clone](https://github.com/par-hub/whatsapp_Clone)
-A Flutter messaging-app project with Firebase integration and modules for chats, groups, status, contacts, and calling.
+
+A Flutter messaging-app project with Firebase integration and modules for authentication, chats, groups, status, contacts, and calling-related UI.
 
 **Technologies:** Flutter · Dart · Firebase Auth · Cloud Firestore · Firebase Storage · Riverpod · Zego call SDK
 
 ### 🐄 [AgroAI — Cattle Breed Detection](https://github.com/par-hub/AgroAI)
-A cattle-breed identification project with a Next.js web experience and a Flutter application.
 
-**Focus:** Image-based breed detection · Breed information · Mobile/web development · Supabase integration
+A cattle-breed identification project with a Next.js web experience and a Flutter application. **Note:** the current web upload/results flow uses simulated analysis and sample breed data; live model inference still needs to be integrated and validated in that flow.
+
+**Technologies:** Next.js · React · TypeScript · Tailwind CSS · Flutter · Dart · Supabase
 
 ### 📚 [Sync-ED — Collaborative Learning](https://github.com/par-hub/Sync-ED)
+
 A student learning platform focused on peer-to-peer resource sharing, study planning, topic-based discussions, and AI-assisted resume feedback.
 
 **Technologies:** Flutter · Dart · Supabase
 
 ### 💭 [Blabber — Android Chat App](https://github.com/par-hub/Blabber)
-An Android messaging app project with sign-in/registration screens, chat layouts, and Firebase-related integrations.
 
-**Technologies:** Android · Gradle · Firebase Authentication · Realtime Database · Firebase Storage
+An Android messaging app project with sign-in/registration screens, user lists, chat layouts, settings, and Firebase integrations.
+
+**Technologies:** Android · Java · Gradle · Firebase Authentication · Realtime Database · Firebase Storage
 
 ---
 
