@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Parth Singh — AI, software and real-world impact</title>
+  <desc id="desc">A calm editorial-style personal profile banner in warm ivory, forest green, sage, terracotta and muted blue. It highlights AI and machine learning, generative AI, Flutter and Dart, NabhKrishi, and ISL Gloss.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf5"/>
+      <stop offset="1" stop-color="#f1efe5"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#739174"/>
+      <stop offset="1" stop-color="#3e654e"/>
+    </linearGradient>
+    <clipPath id="landClip">
+      <rect x="956" y="30" width="585" height="386" rx="28"/>
+    </clipPath>
+  </defs>
+  <rect width="1600" height="500" rx="26" fill="url(#paper)"/>
+  <!-- Quiet editorial background accents -->
+  <circle cx="895" cy="75" r="190" fill="#e5e8da" opacity=".36"/>
+  <circle cx="1480" cy="30" r="135" fill="#e7d9cb" opacity=".35"/>
+  <path d="M58 48H816" stroke="#c6cec0" stroke-width="1.5"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="64" y="37" font-size="14" fill="#476953" font-weight="700" letter-spacing="3.4">PAR-HUB  /  PERSONAL PORTFOLIO</text>
+    <text x="64" y="122" font-size="62" fill="#172e2b" font-weight="760" letter-spacing="-2.5">Parth Singh</text>
+    <text x="66" y="165" font-size="26" fill="#426b51" font-weight="650">AI/ML · Generative AI · Software Development</text>
+    <text x="67" y="208" font-size="18" fill="#40514d">Building practical technology for agriculture, accessibility,</text>
+    <text x="67" y="236" font-size="18" fill="#40514d">and everyday problems — from intelligent models to mobile apps.</text>
+    <!-- Featured projects as restrained labels -->
+    <rect x="66" y="270" width="190" height="42" rx="21" fill="#e0e8dc" stroke="#a6b9a1"/>
+    <circle cx="87" cy="291" r="5" fill="#4c7656"/>
+    <text x="101" y="297" font-size="15" fill="#284633" font-weight="650">NabhKrishi</text>
+    <rect x="268" y="270" width="158" height="42" rx="21" fill="#efe1d5" stroke="#d8b39d"/>
+    <circle cx="289" cy="291" r="5" fill="#bb7258"/>
+    <text x="303" y="297" font-size="15" fill="#6f4334" font-weight="650">ISL Gloss</text>
+    <rect x="438" y="270" width="174" height="42" rx="21" fill="#dfe9ed" stroke="#a6c0ca"/>
+    <circle cx="459" cy="291" r="5" fill="#548699"/>
+    <text x="473" y="297" font-size="15" fill="#2d5967" font-weight="650">Flutter · Dart</text>
+    <text x="67" y="353" font-size="14" fill="#65766b">CSE (AI)  ·  AWS Certified Cloud Practitioner  ·  India</text>
+    <path d="M66 383H855" stroke="#c8d0c4" stroke-width="1.5"/>
+    <text x="67" y="411" font-size="13" fill="#617269" letter-spacing="2.1">IDEAS INTO IMPACT</text>
+    <text x="67" y="438" font-size="16" fill="#344c40" font-style="italic">Learning continuously. Building thoughtfully.</text>
+  </g>
+  <!-- A calm illustrated landscape instead of neon dashboards -->
+  <g clip-path="url(#landClip)">
+    <rect x="956" y="30" width="585" height="386" fill="#e4e8df"/>
+    <rect x="956" y="30" width="585" height="170" fill="#e7e9e2"/>
+    <circle cx="1420" cy="104" r="48" fill="#d7a27f" opacity=".82"/>
+    <path d="M956 221 C1055 180 1104 204 1182 175 C1270 142 1332 194 1395 169 C1456 145 1497 160 1541 140 V416 H956Z" fill="#b2c8b1"/>
+    <path d="M956 255 C1040 214 1095 251 1175 219 C1250 189 1322 231 1393 209 C1453 190 1499 208 1541 188 V416 H956Z" fill="#829f82"/>
+    <path d="M956 302 C1050 260 1135 288 1206 254 C1291 214 1375 272 1438 249 C1480 235 1513 255 1541 239 V416 H956Z" fill="url(#field)"/>
+    <!-- Organic crop rows -->
+    <g fill="none" stroke="#d7dfc8" stroke-width="2" opacity=".64">
+      <path d="M1012 420C1040 354 1063 312 1100 270"/>
+      <path d="M1060 420C1081 351 1111 310 1145 263"/>
+      <path d="M1112 420C1133 351 1161 312 1191 265"/>
+      <path d="M1164 420C1184 355 1213 318 1240 269"/>
+      <path d="M1218 420C1234 357 1265 321 1289 276"/>
+      <path d="M1274 420C1288 362 1315 326 1336 280"/>
+      <path d="M1330 420C1342 366 1368 333 1385 289"/>
+    </g>
+    <path d="M956 338 C1055 300 1130 333 1213 296 C1304 256 1379 320 1452 286 C1490 268 1518 281 1541 267" stroke="#d8b694" stroke-width="4" fill="none" opacity=".8"/>
+    <!-- Minimal figure, from behind -->
+    <path d="M1161 418 C1168 365 1177 334 1195 308 C1207 290 1230 282 1251 287 C1275 293 1291 320 1302 351 L1322 418Z" fill="#263b35"/>
+    <path d="M1193 313 C1185 293 1187 267 1197 246 C1207 223 1231 215 1250 226 C1270 237 1277 262 1272 283 L1263 308 C1240 321 1213 324 1193 313Z" fill="#2d332e"/>
+    <path d="M1197 252 C1203 229 1226 218 1248 230 C1264 239 1272 258 1268 275 C1253 264 1242 249 1237 235 C1228 252 1215 260 1197 262Z" fill="#252a26"/>
+    <path d="M1190 334 C1171 351 1166 383 1163 418" stroke="#6b8170" stroke-width="3" fill="none" opacity=".7"/>
+    <!-- Simple location pin -->
+    <path d="M1438 246 C1438 231 1450 219 1465 219 C1480 219 1492 231 1492 246 C1492 266 1465 290 1465 290 C1465 290 1438 266 1438 246Z" fill="#f4f0e4" stroke="#476953" stroke-width="2"/>
+    <circle cx="1465" cy="245" r="7" fill="#c47759"/>
+    <!-- Paper-style note card -->
+    <g transform="rotate(-4 1400 340)">
+      <rect x="1330" y="312" width="176" height="77" rx="9" fill="#fbfaf5" stroke="#d0d2c6"/>
+      <text x="1345" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#6e8473" font-weight="700" letter-spacing="1.5">FIELD NOTES</text>
+      <text x="1345" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#294b38" font-weight="650">Technology with</text>
+      <text x="1345" y="374" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#294b38" font-weight="650">real-world purpose.</text>
+    </g>
+  </g>
+  <rect x="956" y="30" width="585" height="386" rx="28" fill="none" stroke="#d0d8cc" stroke-width="1.5"/>
+  <!-- Minimal footer skill rail -->
+  <rect x="0" y="458" width="1600" height="42" fill="#e4e8dc"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13.5" fill="#3b5f48" font-weight="600">
+    <text x="65" y="484">AI / MACHINE LEARNING</text>
+    <circle cx="265" cy="479" r="3" fill="#c47759"/>
+    <text x="286" y="484">GENAI · LLMs · RAG</text>
+    <circle cx="457" cy="479" r="3" fill="#c47759"/>
+    <text x="479" y="484">REINFORCEMENT LEARNING</text>
+    <circle cx="700" cy="479" r="3" fill="#c47759"/>
+    <text x="721" y="484">COMPUTER VISION</text>
+    <circle cx="878" cy="479" r="3" fill="#c47759"/>
+    <text x="900" y="484">MAPS &amp; GEO-SPATIAL</text>
+    <circle cx="1085" cy="479" r="3" fill="#c47759"/>
+    <text x="1107" y="484">FLUTTER · DART</text>
+    <circle cx="1267" cy="479" r="3" fill="#c47759"/>
+    <text x="1289" y="484">WEB · CLOUD</text>
+  </g>
+</svg>
