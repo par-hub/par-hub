@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/par-hub/par-hub/main/assets/parth-profile-banner-2026.svg" alt="Parth Singh — AI/ML, Generative AI, and software development profile banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/par-hub/par-hub/main/assets/parth-profile-banner.svg" alt="Parth Singh — AI/ML, Generative AI, and software development profile banner" width="100%" />
 </p>
 
 # Hi, I'm Parth Singh 👋
