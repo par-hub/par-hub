@@ -1,96 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
-  <title id="title">Parth Singh — AI, software and real-world impact</title>
-  <desc id="desc">A calm editorial-style personal profile banner in warm ivory, forest green, sage, terracotta and muted blue. It highlights AI and machine learning, generative AI, Flutter and Dart, NabhKrishi, and ISL Gloss.</desc>
+  <title id="title">Parth Singh — AI, Machine Learning, and Software Development</title>
+  <desc id="desc">A dark navy banner with cyan, teal, and violet accents highlighting generative AI, RAG, reinforcement learning, computer vision, Flutter, and geospatial technology.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fbfaf5"/>
-      <stop offset="1" stop-color="#f1efe5"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset=".52" stop-color="#081b2c"/>
+      <stop offset="1" stop-color="#090d1c"/>
     </linearGradient>
-    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#739174"/>
-      <stop offset="1" stop-color="#3e654e"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2=".9">
+      <stop offset="0" stop-color="#39e6ca"/>
+      <stop offset=".52" stop-color="#48b8ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <clipPath id="landClip">
-      <rect x="956" y="30" width="585" height="386" rx="28"/>
-    </clipPath>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102d44" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#11152b" stop-opacity=".96"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#28d8c7" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#28d8c7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
   </defs>
-  <rect width="1600" height="500" rx="26" fill="url(#paper)"/>
-  <!-- Quiet editorial background accents -->
-  <circle cx="895" cy="75" r="190" fill="#e5e8da" opacity=".36"/>
-  <circle cx="1480" cy="30" r="135" fill="#e7d9cb" opacity=".35"/>
-  <path d="M58 48H816" stroke="#c6cec0" stroke-width="1.5"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="64" y="37" font-size="14" fill="#476953" font-weight="700" letter-spacing="3.4">PAR-HUB  /  PERSONAL PORTFOLIO</text>
-    <text x="64" y="122" font-size="62" fill="#172e2b" font-weight="760" letter-spacing="-2.5">Parth Singh</text>
-    <text x="66" y="165" font-size="26" fill="#426b51" font-weight="650">AI/ML · Generative AI · Software Development</text>
-    <text x="67" y="208" font-size="18" fill="#40514d">Building practical technology for agriculture, accessibility,</text>
-    <text x="67" y="236" font-size="18" fill="#40514d">and everyday problems — from intelligent models to mobile apps.</text>
-    <!-- Featured projects as restrained labels -->
-    <rect x="66" y="270" width="190" height="42" rx="21" fill="#e0e8dc" stroke="#a6b9a1"/>
-    <circle cx="87" cy="291" r="5" fill="#4c7656"/>
-    <text x="101" y="297" font-size="15" fill="#284633" font-weight="650">NabhKrishi</text>
-    <rect x="268" y="270" width="158" height="42" rx="21" fill="#efe1d5" stroke="#d8b39d"/>
-    <circle cx="289" cy="291" r="5" fill="#bb7258"/>
-    <text x="303" y="297" font-size="15" fill="#6f4334" font-weight="650">ISL Gloss</text>
-    <rect x="438" y="270" width="174" height="42" rx="21" fill="#dfe9ed" stroke="#a6c0ca"/>
-    <circle cx="459" cy="291" r="5" fill="#548699"/>
-    <text x="473" y="297" font-size="15" fill="#2d5967" font-weight="650">Flutter · Dart</text>
-    <text x="67" y="353" font-size="14" fill="#65766b">CSE (AI)  ·  AWS Certified Cloud Practitioner  ·  India</text>
-    <path d="M66 383H855" stroke="#c8d0c4" stroke-width="1.5"/>
-    <text x="67" y="411" font-size="13" fill="#617269" letter-spacing="2.1">IDEAS INTO IMPACT</text>
-    <text x="67" y="438" font-size="16" fill="#344c40" font-style="italic">Learning continuously. Building thoughtfully.</text>
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <ellipse cx="1260" cy="70" rx="330" ry="250" fill="url(#glow)" filter="url(#blur)"/>
+  <ellipse cx="770" cy="470" rx="360" ry="140" fill="#2563eb" opacity=".13" filter="url(#blur)"/>
+  <g stroke="#23445c" stroke-width="1" opacity=".45">
+    <path d="M0 90H1600M0 180H1600M0 270H1600M0 360H1600M0 450H1600"/>
+    <path d="M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500M800 0V500M900 0V500M1000 0V500M1100 0V500M1200 0V500M1300 0V500M1400 0V500M1500 0V500"/>
   </g>
-  <!-- A calm illustrated landscape instead of neon dashboards -->
-  <g clip-path="url(#landClip)">
-    <rect x="956" y="30" width="585" height="386" fill="#e4e8df"/>
-    <rect x="956" y="30" width="585" height="170" fill="#e7e9e2"/>
-    <circle cx="1420" cy="104" r="48" fill="#d7a27f" opacity=".82"/>
-    <path d="M956 221 C1055 180 1104 204 1182 175 C1270 142 1332 194 1395 169 C1456 145 1497 160 1541 140 V416 H956Z" fill="#b2c8b1"/>
-    <path d="M956 255 C1040 214 1095 251 1175 219 C1250 189 1322 231 1393 209 C1453 190 1499 208 1541 188 V416 H956Z" fill="#829f82"/>
-    <path d="M956 302 C1050 260 1135 288 1206 254 C1291 214 1375 272 1438 249 C1480 235 1513 255 1541 239 V416 H956Z" fill="url(#field)"/>
-    <!-- Organic crop rows -->
-    <g fill="none" stroke="#d7dfc8" stroke-width="2" opacity=".64">
-      <path d="M1012 420C1040 354 1063 312 1100 270"/>
-      <path d="M1060 420C1081 351 1111 310 1145 263"/>
-      <path d="M1112 420C1133 351 1161 312 1191 265"/>
-      <path d="M1164 420C1184 355 1213 318 1240 269"/>
-      <path d="M1218 420C1234 357 1265 321 1289 276"/>
-      <path d="M1274 420C1288 362 1315 326 1336 280"/>
-      <path d="M1330 420C1342 366 1368 333 1385 289"/>
+  <path d="M0 390 C240 310 365 470 620 360 S970 245 1140 300 S1450 380 1600 260" fill="none" stroke="url(#shine)" stroke-width="2" opacity=".5"/>
+  <g transform="translate(64 47)">
+    <rect x="0" y="0" width="44" height="44" rx="13" fill="url(#shine)"/>
+    <path d="M13 31V13h5l8 10 8-10h5v18h-5V21l-8 9-8-9v10z" fill="#071426"/>
+    <text x="60" y="19" fill="#f0f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2">PARTH SINGH</text>
+    <text x="60" y="39" fill="#8eaac3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">PAR-HUB  /  DEVELOPER PROFILE</text>
+  </g>
+  <g transform="translate(66 142)">
+    <text x="0" y="0" fill="#63e6d2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">AI / ML   •   GENERATIVE AI   •   SOFTWARE</text>
+    <text x="0" y="67" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="750" letter-spacing="-1.5">Building AI for</text>
+    <text x="0" y="128" fill="url(#shine)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="750" letter-spacing="-1.5">Real-World Impact.</text>
+    <text x="2" y="170" fill="#c5d4e6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Computer Science &amp; Engineering  ·  AI/ML  ·  Full-Stack &amp; Mobile</text>
+    <text x="2" y="203" fill="#8eaac3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Turning ideas into useful tools for agriculture, accessibility, and everyday life.</text>
+  </g>
+  <g transform="translate(66 384)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="0" y="0" width="214" height="42" rx="21" fill="#102c39" stroke="#2dd4bf" stroke-opacity=".65"/>
+    <circle cx="21" cy="21" r="5" fill="#2dd4bf"/>
+    <text x="36" y="26" fill="#d9fff8" font-size="14" font-weight="600">NabhKrishi</text>
+    <rect x="228" y="0" width="174" height="42" rx="21" fill="#171d3b" stroke="#a78bfa" stroke-opacity=".65"/>
+    <circle cx="249" cy="21" r="5" fill="#a78bfa"/>
+    <text x="264" y="26" fill="#eee7ff" font-size="14" font-weight="600">ISL Gloss</text>
+    <rect x="416" y="0" width="228" height="42" rx="21" fill="#10273f" stroke="#60a5fa" stroke-opacity=".6"/>
+    <circle cx="437" cy="21" r="5" fill="#60a5fa"/>
+    <text x="452" y="26" fill="#e0efff" font-size="14" font-weight="600">Flutter · Dart</text>
+  </g>
+  <g transform="translate(980 51)">
+    <rect x="0" y="0" width="548" height="385" rx="24" fill="url(#panel)" stroke="#365875" stroke-opacity=".8"/>
+    <text x="28" y="38" fill="#93b7d5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">AREAS I BUILD IN</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif">
+      <rect x="24" y="58" width="244" height="116" rx="16" fill="#0b2432" stroke="#2dd4bf" stroke-opacity=".75"/>
+      <circle cx="58" cy="94" r="15" fill="#2dd4bf" fill-opacity=".17" stroke="#2dd4bf"/>
+      <path d="M50 94h16M58 86v16M52 88l12 12M64 88L52 100" stroke="#80fff0" stroke-width="1.5"/>
+      <text x="82" y="92" fill="#e4fff9" font-size="16" font-weight="700">Smart Agriculture</text>
+      <text x="42" y="127" fill="#92b4c9" font-size="12">Computer vision · Decision support</text>
+      <text x="42" y="148" fill="#92b4c9" font-size="12">Satellite data · Farm mapping</text>
+      <rect x="280" y="58" width="244" height="116" rx="16" fill="#151b37" stroke="#a78bfa" stroke-opacity=".75"/>
+      <circle cx="314" cy="94" r="15" fill="#a78bfa" fill-opacity=".17" stroke="#a78bfa"/>
+      <path d="M307 99V90l7-5 7 5v9M310 99v-5h8v5" fill="none" stroke="#ddd2ff" stroke-width="1.5"/>
+      <text x="338" y="92" fill="#f0eaff" font-size="16" font-weight="700">GenAI &amp; LLMs</text>
+      <text x="298" y="127" fill="#b3b9d7" font-size="12">RAG · Embeddings · Knowledge</text>
+      <text x="298" y="148" fill="#b3b9d7" font-size="12">Grounded assistant workflows</text>
+      <rect x="24" y="190" width="244" height="116" rx="16" fill="#101f3a" stroke="#60a5fa" stroke-opacity=".75"/>
+      <circle cx="58" cy="226" r="15" fill="#60a5fa" fill-opacity=".17" stroke="#60a5fa"/>
+      <circle cx="52" cy="225" r="3" fill="#bfdbfe"/><circle cx="64" cy="219" r="3" fill="#bfdbfe"/><circle cx="64" cy="232" r="3" fill="#bfdbfe"/>
+      <path d="M55 224l6-4M55 226l6 5" stroke="#bfdbfe" stroke-width="1.5"/>
+      <text x="82" y="224" fill="#e5f1ff" font-size="16" font-weight="700">Reinforcement Learning</text>
+      <text x="42" y="259" fill="#a6bdd9" font-size="12">PPO · Adaptive decisions</text>
+      <text x="42" y="280" fill="#a6bdd9" font-size="12">Model evaluation</text>
+      <rect x="280" y="190" width="244" height="116" rx="16" fill="#102a33" stroke="#2dd4bf" stroke-opacity=".75"/>
+      <circle cx="314" cy="226" r="15" fill="#2dd4bf" fill-opacity=".17" stroke="#2dd4bf"/>
+      <path d="M314 214c-6 0-9 5-9 9 0 7 9 15 9 15s9-8 9-15c0-4-3-9-9-9z" fill="none" stroke="#a7fff2" stroke-width="1.5"/><circle cx="314" cy="223" r="3" fill="#a7fff2"/>
+      <text x="338" y="224" fill="#e2fff9" font-size="16" font-weight="700">Maps &amp; Mobile</text>
+      <text x="298" y="259" fill="#92c4c6" font-size="12">Flutter · Dart · GPS · GeoJSON</text>
+      <text x="298" y="280" fill="#92c4c6" font-size="12">Location-aware experiences</text>
     </g>
-    <path d="M956 338 C1055 300 1130 333 1213 296 C1304 256 1379 320 1452 286 C1490 268 1518 281 1541 267" stroke="#d8b694" stroke-width="4" fill="none" opacity=".8"/>
-    <!-- Minimal figure, from behind -->
-    <path d="M1161 418 C1168 365 1177 334 1195 308 C1207 290 1230 282 1251 287 C1275 293 1291 320 1302 351 L1322 418Z" fill="#263b35"/>
-    <path d="M1193 313 C1185 293 1187 267 1197 246 C1207 223 1231 215 1250 226 C1270 237 1277 262 1272 283 L1263 308 C1240 321 1213 324 1193 313Z" fill="#2d332e"/>
-    <path d="M1197 252 C1203 229 1226 218 1248 230 C1264 239 1272 258 1268 275 C1253 264 1242 249 1237 235 C1228 252 1215 260 1197 262Z" fill="#252a26"/>
-    <path d="M1190 334 C1171 351 1166 383 1163 418" stroke="#6b8170" stroke-width="3" fill="none" opacity=".7"/>
-    <!-- Simple location pin -->
-    <path d="M1438 246 C1438 231 1450 219 1465 219 C1480 219 1492 231 1492 246 C1492 266 1465 290 1465 290 C1465 290 1438 266 1438 246Z" fill="#f4f0e4" stroke="#476953" stroke-width="2"/>
-    <circle cx="1465" cy="245" r="7" fill="#c47759"/>
-    <!-- Paper-style note card -->
-    <g transform="rotate(-4 1400 340)">
-      <rect x="1330" y="312" width="176" height="77" rx="9" fill="#fbfaf5" stroke="#d0d2c6"/>
-      <text x="1345" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#6e8473" font-weight="700" letter-spacing="1.5">FIELD NOTES</text>
-      <text x="1345" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#294b38" font-weight="650">Technology with</text>
-      <text x="1345" y="374" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#294b38" font-weight="650">real-world purpose.</text>
-    </g>
+    <path d="M24 332H524" stroke="#365875" stroke-opacity=".8"/>
+    <text x="24" y="359" fill="#b6cbe0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Curious by nature. Focused on practical impact.</text>
   </g>
-  <rect x="956" y="30" width="585" height="386" rx="28" fill="none" stroke="#d0d8cc" stroke-width="1.5"/>
-  <!-- Minimal footer skill rail -->
-  <rect x="0" y="458" width="1600" height="42" fill="#e4e8dc"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13.5" fill="#3b5f48" font-weight="600">
-    <text x="65" y="484">AI / MACHINE LEARNING</text>
-    <circle cx="265" cy="479" r="3" fill="#c47759"/>
-    <text x="286" y="484">GENAI · LLMs · RAG</text>
-    <circle cx="457" cy="479" r="3" fill="#c47759"/>
-    <text x="479" y="484">REINFORCEMENT LEARNING</text>
-    <circle cx="700" cy="479" r="3" fill="#c47759"/>
-    <text x="721" y="484">COMPUTER VISION</text>
-    <circle cx="878" cy="479" r="3" fill="#c47759"/>
-    <text x="900" y="484">MAPS &amp; GEO-SPATIAL</text>
-    <circle cx="1085" cy="479" r="3" fill="#c47759"/>
-    <text x="1107" y="484">FLUTTER · DART</text>
-    <circle cx="1267" cy="479" r="3" fill="#c47759"/>
-    <text x="1289" y="484">WEB · CLOUD</text>
-  </g>
+  <text x="1530" y="477" text-anchor="end" fill="#4d6a82" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">AI · BUILD · ITERATE</text>
 </svg>
