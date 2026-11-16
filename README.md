@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,40:312E81,75:6D28D9,100:4F46E5&height=210&section=header&text=PARTH%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=SOFTWARE%20ENGINEERING%20%7C%20AI%2FML%20%7C%20GENERATIVE%20AI&descAlignY=58&descSize=13" alt="Parth Singh profile header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,40:312E81,75:6D28D9,100:4F46E5&height=210&section=header&text=PARTH%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=SOFTWARE%20ENGINEERING%20%7C%20AI%2FML%20%7C%20GENAI%20%7C%20AGENTIC%20AI&descAlignY=58&descSize=13" alt="Parth Singh profile header"/>
 
 <a href="https://readme-typing-svg.demolab.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Building+Intelligent+Systems;Engineering+AI-Powered+Products;Generative+AI+%7C+LLMs+%7C+RAG;Computer+Vision+%7C+NLP+%7C+Reinforcement+Learning;From+Research+to+Real-World+Applications" alt="Animated introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Building+Intelligent+Systems;Engineering+AI-Powered+Products;Generative+AI+%7C+LLMs+%7C+RAG;GraphRAG+%7C+Knowledge+Graphs;Multi-Agent+Systems+%7C+LangGraph;Computer+Vision+%7C+NLP+%7C+Reinforcement+Learning" alt="Animated introduction"/>
 </a>
 
 <br/><br/>
@@ -40,12 +40,13 @@
 
 I'm a Computer Science and Engineering student specializing in **Artificial Intelligence**, interested in building intelligent software that connects research, engineering, and practical product development.
 
-My work spans **AI/ML, Generative AI, large language models, retrieval-augmented generation, computer vision, natural language processing, and reinforcement learning**. I also enjoy developing end-to-end applications with Flutter, web technologies, APIs, and cloud-connected backends.
+My work spans **AI/ML, Generative AI, large language models, RAG, GraphRAG, multi-agent systems, computer vision, explainable NLP, and reinforcement learning**. I also enjoy developing end-to-end applications with Flutter, web technologies, APIs, and cloud-connected backends.
 
 I like taking an idea from experimentation to an integrated product: understanding the problem, exploring the right models and architecture, building the application workflow, and evaluating what works.
 
 - **AI/ML Engineering:** Machine learning, deep learning, computer vision, transformers, NLP, and model evaluation.
 - **Generative AI:** LLM integration, prompt engineering, RAG pipelines, embeddings, vector retrieval, and AI assistants.
+- **Agentic AI & GraphRAG:** LangChain, LangGraph, writer-reviewer-reviser workflows, knowledge graphs, and multi-hop retrieval.
 - **Reinforcement Learning:** PPO-based decision-support workflows and environment/action design.
 - **Software Development:** Flutter/Dart, React, Next.js, FastAPI, REST APIs, and database integration.
 - **ML Engineering:** Dataset preparation, experimentation, DVC, MLflow, and reproducible workflows.
@@ -108,6 +109,9 @@ I like taking an idea from experimentation to an integrated product: understandi
   <img src="https://img.shields.io/badge/BGE%20Embeddings-4F46E5?style=flat-square" alt="BGE Embeddings"/>
   <img src="https://img.shields.io/badge/NVIDIA%20Nemotron-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Nemotron"/>
   <img src="https://img.shields.io/badge/Prompt%20Engineering-4338CA?style=flat-square" alt="Prompt Engineering"/>
+  <img src="https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900" alt="Amazon Bedrock"/>
+  <img src="https://img.shields.io/badge/Neptune%20%2F%20GraphRAG-4F46E5?style=flat-square" alt="Neptune and GraphRAG"/>
+  <img src="https://img.shields.io/badge/Groq-000000?style=flat-square" alt="Groq"/>
 </p>
 
 ### Reinforcement Learning
@@ -146,6 +150,9 @@ I like taking an idea from experimentation to an integrated product: understandi
 | Reinforcement Learning | PPO-based decision support, environment and action-space design |
 | ML Engineering | Dataset preparation, training/validation, DVC, MLflow |
 | AI Product Integration | Model/API integration, Flutter and web workflows, backend services |
+| Agentic AI | LangGraph state graphs, multi-agent review loops, tool and model orchestration |
+| GraphRAG & Knowledge Graphs | Entity/relationship-based retrieval concepts, AWS Bedrock Knowledge Bases, Amazon Neptune |
+| Explainable NLP | Human rationales, rationale-guided attention, sarcasm-aware hate speech experiments |
 
 ---
 
@@ -206,7 +213,7 @@ A project exploring English-to-Indian Sign Language gloss generation, with a Pyt
 
 ---
 
-## `05` &nbsp; Other Important Projects
+## `05` &nbsp; Current AI Engineering & Research
 
 <details>
 <summary><strong>01. WhatsApp Clone</strong> &nbsp; <code>Flutter</code> <code>Firebase</code></summary>
@@ -267,7 +274,103 @@ A backend service that combines satellite-derived features and weather data with
 
 ---
 
-## `06` &nbsp; Certifications & Highlights
+### ◈ Recent Research & Engineering Work
+
+<details open>
+<summary><strong>01. Knowledge Graph RAG — Multi-Hop Retrieval with AWS</strong> &nbsp; <code>GraphRAG</code> <code>Amazon Bedrock</code> <code>Knowledge Graphs</code></summary>
+
+<br/>
+
+A notebook-based exploration of how knowledge graphs can complement conventional vector retrieval when questions require connected facts and multi-hop reasoning.
+
+| Area | Implementation |
+|:---|:---|
+| **RAG Baseline** | Document loading, chunking, embeddings, Chroma vector retrieval |
+| **LLM** | Amazon Bedrock Nova Lite |
+| **Knowledge Base** | Amazon Bedrock Knowledge Base retrieval API |
+| **Graph Layer** | Amazon Neptune and Neptune Analytics concepts |
+| **Focus** | Entities, relationships, multi-hop questions, Naive RAG vs GraphRAG |
+| **Repository** | [Knowledge-Graph](https://github.com/par-hub/Knowledge-Graph) |
+
+**What the notebook explores**
+
+- Why similarity-only retrieval can miss relationships across documents.
+- How entity and relationship graphs can support connected retrieval.
+- How Bedrock retrieval results can be passed to an LLM for grounded answers.
+
+*This is currently a notebook-based implementation/walkthrough; the repository does not yet present a production GraphRAG service.*
+
+</details>
+
+<details open>
+<summary><strong>02. Self-Correcting Multi-Agent System</strong> &nbsp; <code>Agentic AI</code> <code>LangGraph</code> <code>FastAPI</code></summary>
+
+<br/>
+
+A web application that uses a writer-reviewer-reviser workflow to produce and iteratively improve beginner-friendly explanations.
+
+| Agent / Component | Responsibility |
+|:---|:---|
+| **Writer** | Drafts an initial explanation |
+| **Reviewer** | Checks clarity, analogy, example, and relevance; returns PASS or REVISE |
+| **Reviser** | Improves the draft using reviewer feedback |
+| **Orchestration** | LangGraph StateGraph with a bounded review/revision loop |
+| **Model** | Groq through LangChain; configured as `openai/gpt-oss-120b` |
+| **Interface** | FastAPI endpoint and browser-based UI |
+| **Repository** | [Learning-LOOP-Engineering](https://github.com/par-hub/Learning-LOOP-Engineering) |
+
+**Engineering highlights**
+
+- Uses structured reviewer output to route the workflow.
+- Tracks revision count and stops when the answer passes or reaches the configured limit.
+- Exposes the workflow through `POST /api/run` and a simple web interface.
+
+</details>
+
+<details open>
+<summary><strong>03. Sarcasm-Aware Hate Speech Detection</strong> &nbsp; <code>NLP</code> <code>Explainable AI</code> <code>Transformers</code></summary>
+
+<br/>
+
+Research implementation inspired by rationale-guided hate-speech detection. The current notebook experiments with a multi-task transformer setup that predicts the class, hate rationale, sarcasm label, and sarcasm spans.
+
+| Area | Implementation |
+|:---|:---|
+| **Backbone** | BERT / RoBERTa experiments |
+| **Tasks** | Hate/offensive/normal classification, rationale prediction, sarcasm classification and span prediction |
+| **Explainability** | Human-rationale alignment, token-F1, IOU-F1, AUPRC, comprehensiveness, sufficiency |
+| **Evaluation** | Held-out test run with 300 posts in the current-best-metrics notebook |
+| **Latest notebook output** | Accuracy **76.33%** · Macro-F1 **67.41%** · AUROC **87.37%** |
+| **Repository** | [hate-sarcasm-detection](https://github.com/par-hub/hate-sarcasm-detection.) |
+
+**Research focus**
+
+- Testing whether rationale supervision improves the explanations produced by a classifier.
+- Studying whether sarcasm-related signals help detect hate expressed indirectly.
+- Comparing model variants and ensemble predictions.
+
+*The metrics above are from the current-best-metrics notebook's reported test run, not a guarantee of generalization. The notebook output reports a 300-post test set; results should be compared with the research paper only with the evaluation differences in mind.*
+
+</details>
+
+<details>
+<summary><strong>04. Learning GenAI — LangChain & LLM Experiments</strong> &nbsp; <code>Generative AI</code> <code>LangChain</code> <code>RAG</code></summary>
+
+A hands-on learning repository with notebooks and small Python examples covering LLM calls, prompt templates, output parsing, conditional and parallel chains, runnables, embeddings, and RAG workflows.
+
+**Explored tools:** LangChain · Groq · Gemini/Gemma · Ollama · ChromaDB · FAISS · Hugging Face
+
+**Repository:** [Learning-GenAI](https://github.com/par-hub/Learning-GenAI)
+
+*This is a learning/experimentation repository rather than a single packaged application.*
+
+</details>
+
+---
+
+## `06` &nbsp; Other Important Projects
+
+## `07` &nbsp; Certifications & Highlights
 
 ### Certification
 
@@ -282,17 +385,17 @@ A backend service that combines satellite-derived features and weather data with
 
 ---
 
-## `07` &nbsp; Currently Exploring
+## `08` &nbsp; Currently Exploring
 
-- Building more reliable Generative AI and RAG applications.
-- Understanding LLM application architecture and evaluation.
-- Exploring agentic workflows and tool-using AI systems.
-- Improving model evaluation, experiment tracking, and deployment practices.
-- Building useful mobile and full-stack applications.
+- GraphRAG, knowledge graphs, and multi-hop retrieval with AWS services.
+- Agentic workflows, LangGraph orchestration, and self-correcting multi-agent systems.
+- Explainable NLP, rationale-guided models, and sarcasm-aware classification.
+- LLM application architecture, RAG evaluation, and model experimentation.
+- Improving ML deployment, experiment tracking, and full-stack application engineering.
 
 ---
 
-## `08` &nbsp; Connect
+## `09` &nbsp; Connect
 
 <div align="center">
 
